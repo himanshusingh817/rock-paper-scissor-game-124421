@@ -1,0 +1,48 @@
+// const btnEle = document.querySelectorAll("button")
+
+// const userscoreEle = document.getElementById("user-score")
+// const compscoreEle = document.getElementById("comp-score")
+// const resultEle = document.getElementById("result")
+
+// let userscore = 0
+// let compscore = 0
+// btnEle.forEach((btn)=>{
+//     btn.addEventListener("click",()=>{
+        
+//         // const userChoice = btn.id;
+//         // const computerChoice = compchoice();
+//         // const result = playround(userChoice, computerChoice);
+//         // console.log("you click on",btn.id);
+//         //  console.log("computer choice",compchoice());
+//         const result = playround(btn.id,compchoice());
+//         // console.log(result);
+//         resultEle.textContent = result;
+        
+//     });
+// });
+
+// function compchoice(){
+//     const choices = ["rock","paper","siccior"]
+
+//     const randomchoice = Math.floor(Math.random()*choices.length)
+//     return choices[randomchoice];
+// }
+
+// function playround(userselection,compselection){
+//     if(userselection === compselection){
+//         return "it's a tie!";
+//     }
+// else if(
+//     (userselection ==="rock" && compselection ==="sciccior")||
+//     (userselection ==="sciccior" && compselection ==="paper")||
+//     (userselection ==="paper" && compselection ==="rock")
+// ){
+//     userscore++;
+//     userscoreEle.textContent = userscore;
+//     return `you win! ${userselection} beats ${compselection}`;
+// }else{
+//     compscore++;
+//     compscoreEle.textContent = compscore;
+//     return `you lose! ${compselection}beats ${userselection}`;
+// }                                    
+// }

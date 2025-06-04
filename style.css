@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    /* background-color: aliceblue; */
+    background-image: url(rps.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    background-color: rgb(112, 18, 201);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#user-score {
+    color: rgb(255, 255, 1);
+
+}
+
+#comp-score {
+    color: red;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    background-color: blue;
+    width: 50%;
+    position: relative;
+    left: 25vw;
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    padding: 40px;
+    margin: 0 3vw;
+    border-radius: 50px;
+    font-size: 40px;
+    box-shadow: 4px 5px 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+#rock {
+    background-color: rgb(233, 31, 31);
+}
+
+#paper {
+    background-color: rgb(37, 124, 236);
+}
+
+#siccior {
+    background-color: rgb(23, 230, 23);
+}
+
+#result {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    height: 20vh;
+    padding: 30px;
+    width: 50vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+}
+
+/* #reset-btn{
+    display: flex;
+    width: 200px;
+    height: 12px;
+} */

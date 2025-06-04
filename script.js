@@ -51,6 +51,12 @@ function playround(userselection, compselection) {
         return `You lose! ${compselection} beats ${userselection}`;
     }
 }
+
+
+
+// this is same 2nd code you can try this also
+
+
 // const btnEle = document.querySelectorAll("button");
 // const userscoreEle = document.getElementById("user-score");
 // const compscoreEle = document.getElementById("comp-score");
